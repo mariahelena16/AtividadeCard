@@ -1,0 +1,31 @@
+.card {
+    height: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+}
+
+.card img {
+    display: block;
+    aspect-ratio: 3 / 2;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    color: blueviolet;
+}
+
+.card-text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 120px;
+    padding: 12px;
+}
+
+.card-swiper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 20px 48px;
+}
